@@ -4,7 +4,9 @@ if array.length == 1
 elsif array.length == 2 
   array.join(" and ")
 else 
-  array[0..-2].join(", ")
+  last_word = array[-1].insert(0,"and")
+  #array[0..-2].join(", ")
+array
 end 
 
  end
